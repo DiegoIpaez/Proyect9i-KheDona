@@ -1,0 +1,253 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  /* background-image: url();
+  height: 100vh;
+  background-size: cover;"base para fondo"*/
+}
+
+header {
+  position: sticky;
+  top: 0%;
+  z-index: 2;
+}
+
+/* Logo de dona */
+.home {
+  width: 250px;
+}
+.home:hover {
+  opacity: 0.7;
+}
+
+/* Navbar */
+.navbar-toggler {
+  background-color: rgb(230, 4, 211);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 25px;
+  color: #ff00aa;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff6cb5;
+}
+
+.activado {
+  border-bottom: 2px solid #ff00aa;
+  font-weight: bold;
+}
+
+/* carousel */
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+#carousel {
+  position: relative;
+}
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(253, 107, 107, 0.5);
+  color: rgb(251, 251, 251);
+}
+
+#carousel h1 {
+  font-size: 80px;
+}
+
+/* Navegador */
+.form-control:hover {
+  border-color: #ff0080;
+}
+
+.btn-search {
+  color: #ff0080;
+  border-color: #ff0080;
+}
+.btn-search:hover {
+  background-color: #ff0080;
+  border-color: #ff0080;
+}
+
+/* texto-"Para regalar" */
+.section-text {
+  font-size: 32px;
+}
+
+/* boton + */
+.btn-plus {
+  border-radius: 100px;
+  color: #000000;
+  background-color: #ff0080;
+}
+.btn-plus:hover {
+  color: #ff0080;
+  background-color: #000000;
+  border-color: #ff0080;
+}
+
+/* Imagenes */
+.img-fluid {
+  border-radius: 10%;
+}
+
+.imagen-work {
+  transition-property: filter;
+  transition-duration: 0.3s;
+}
+
+.imagen-work:hover {
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+
+.imagen-work a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Redes */
+.redes {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(248, 159, 174);
+}
+.redes-items a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.redes-items {
+  transition-property: filter;
+  transition-duration: 0.3s;
+}
+.redes-items:hover {
+  transform: scale(1.25);
+  opacity: 0.8;
+}
+
+/* Icono Dona */
+.dona-fixed{
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  z-index: 1;
+}
+.frase-fixed{
+  position: fixed;
+  right: 70px;
+  bottom: 80px;
+  z-index: 1;
+}
+.frase-fixed img{
+  filter:opacity(0);
+}
+.frase-fixed img:hover{
+  align-self: center ;
+  width: 100%;
+  filter:opacity(0.85);
+  transition-property:filter;
+  transition-duration: 1s;
+}
+
+
+/* Footer */
+.footer-wrap {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgb(255, 245, 245);
+}
+
+.footer-items a:hover {
+  color: #6b0036;
+  z-index: 2;
+}
+.footer-items a {
+  text-decoration: none;
+  color: #ff0080;
+}
+
+/* Promo */
+.img-bord {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+  transition-property: filter;
+  transition-duration: 0.3s;
+}
+.img-bord:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+.items-lugar {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.button-compra {
+  color: #ff0080;
+  border-color: #ff0080;
+}
+.button-compra:hover {
+  background-color: #ff0080;
+}
+
+/* Error 404 */
+.main-404 {
+  background-image: url(/img/Fondo-error.png);
+  height: 100%;
+  background-size: cover;
+}
+
+.img404 {
+  width: 100%;
+  height: 100%;
+}
+
+.error404 {
+  margin-top: 40px;
+  margin-bottom: 220px;
+}
+
+.btn-error404 {
+  color: #ff0080;
+  border-color: #ff0080;
+}
+.btn-error404:hover {
+  background-color: #ff0080;
+  color: white;
+}
+
+.text-404 {
+  font-size: 30px;
+}
+
+/*About*/
+.btn-about {
+  color: #ff0080;
+  border-color: #ff0080;
+}
+.btn-about:hover {
+  background-color: #ff0080;
+  color: white;
+}
+
+.titleabout {
+  color: #ff0080;
+}
+
+.img-avatarabout {
+  width: 100px;
+  border-radius: 100%;
+  border: 2px solid #ff0080;
+}
+
+.img-avatarabout:hover{
+  opacity: 0.5;
+}
